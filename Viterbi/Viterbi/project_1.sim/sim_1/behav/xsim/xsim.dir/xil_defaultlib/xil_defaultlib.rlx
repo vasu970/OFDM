@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bACSU_213.v,1530540604,verilog,,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bACS_213.v,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/params_b213.inc.v,bACSU_213,,,,,,,,
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bACS_213.v,1709446559,verilog,,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bBMU_213.v,,bACS_213,,,,,,,,
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bBMU_213.v,1530540604,verilog,,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bCONTROL_213.v,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/params_b213.inc.v,bBMU_213,,,,,,,,
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bCONTROL_213.v,1709452718,verilog,,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bSYNCERR_213.v,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/params_b213.inc.v,bCONTROL_213,,,,,,,,
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bSYNCERR_213.v,1530540604,verilog,,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bTBDECISION_213.v,,bSYNCERR_213,,,,,,,,
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bTBDECISION_213.v,1530540604,verilog,,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bVITERBI_213.v,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/params_b213.inc.v,bTBDECISION_213,,,,,,,,
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bVITERBI_213.v,1709446559,verilog,,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/tb_b213.v,C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/params_b213.inc.v,bVITERBI_213,,,,,,,,
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/params_b213.inc.v,1530540604,verilog,,,,,,,,,,,,
+C:/Users/HP/Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/tb_b213.v,1709454790,verilog,,,,tb_b213,,,,,,,,
+C:/Users/HP/Vivado Files/Viterbi/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

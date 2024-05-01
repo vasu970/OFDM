@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bACSU_213.v" \
+"../../../../../../Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bACS_213.v" \
+"../../../../../../Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bBMU_213.v" \
+"../../../../../../Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bCONTROL_213.v" \
+"../../../../../../Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bSYNCERR_213.v" \
+"../../../../../../Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bTBDECISION_213.v" \
+"../../../../../../Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/bVITERBI_213.v" \
+"../../../../../../Desktop/Research Pratice/New Folder/Viterbi-Decoder-in-Verilog-master/Vit_b213/src/tb_b213.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

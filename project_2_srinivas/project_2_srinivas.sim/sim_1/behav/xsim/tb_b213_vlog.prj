@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_2_srinivas.srcs/sources_1/imports/src/bACSU_213.v" \
+"../../../../project_2_srinivas.srcs/sources_1/imports/src/bACS_213.v" \
+"../../../../project_2_srinivas.srcs/sources_1/imports/src/bBMU_213.v" \
+"../../../../project_2_srinivas.srcs/sources_1/imports/src/bCONTROL_213.v" \
+"../../../../project_2_srinivas.srcs/sources_1/imports/src/bSYNCERR_213.v" \
+"../../../../project_2_srinivas.srcs/sources_1/imports/src/bTBDECISION_213.v" \
+"../../../../project_2_srinivas.srcs/sources_1/imports/src/bVITERBI_213.v" \
+"../../../../project_2_srinivas.srcs/sources_1/new/descramble.v" \
+"../../../../project_2_srinivas.srcs/sim_1/imports/src/tb_b213.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

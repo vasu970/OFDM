@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 26 15:45:04 2024
+# Process ID: 15776
+# Current directory: C:/Users/HP/Vivado Files/project_2_srinivas
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15296 C:\Users\HP\Vivado Files\project_2_srinivas\project_2_srinivas.xpr
+# Log file: C:/Users/HP/Vivado Files/project_2_srinivas/vivado.log
+# Journal file: C:/Users/HP/Vivado Files/project_2_srinivas\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new
+file mkdir C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new
+file mkdir C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new
+file mkdir C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new
+file mkdir C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new
+file mkdir C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new
+file mkdir {C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new}
+close [ open {C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new/descramble.v} w ]
+add_files {{C:/Users/HP/Vivado Files/project_2_srinivas/project_2_srinivas.srcs/sources_1/new/descramble.v}}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_b213.tcl
+update_compile_order -fileset sources_1
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_b213/TB_U2/f1/out_bit}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_b213/TB_U2/f1/output_strobe}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_b213/TB_U2/f1/in_bit}} 
+relaunch_sim
+relaunch_sim
+close_sim
+close_project
+create_project ofdm {C:/Users/HP/Vivado Files/ofdm} -part xc7vx485tffg1157-1
+file mkdir C:/Users/HP/Vivado Files/ofdm/ofdm.srcs/sources_1/new
+set_property simulator_language Verilog [current_project]
+file mkdir C:/Users/HP/Vivado Files/ofdm/ofdm.srcs/sources_1/new
+file mkdir C:/Users/HP/Vivado Files/ofdm/ofdm.srcs/sources_1/new
+file mkdir {C:/Users/HP/Vivado Files/ofdm/ofdm.srcs/sources_1/new}
+close [ open {C:/Users/HP/Vivado Files/ofdm/ofdm.srcs/sources_1/new/ofdm.v} w ]
+add_files {{C:/Users/HP/Vivado Files/ofdm/ofdm.srcs/sources_1/new/ofdm.v}}
+update_compile_order -fileset sources_1

@@ -1,0 +1,120 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Apr 26 15:32:57 2024
+# Process ID: 6108
+# Current directory: C:/Users/HP/Vivado Files/Viterbi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15572 C:\Users\HP\Vivado Files\Viterbi\project_1.xpr
+# Log file: C:/Users/HP/Vivado Files/Viterbi/vivado.log
+# Journal file: C:/Users/HP/Vivado Files/Viterbi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/HP/Vivado Files/Viterbi/project_1.xpr}
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/HP/Vivado Files/Viterbi/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 1020.844 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/HP/Vivado Files/Viterbi/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_b213' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HP/Vivado Files/Viterbi/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_b213_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HP/Vivado Files/Viterbi/project_1.sim/sim_1/behav/xsim'
+"xelab -wto 592c785dfc7142228d53a5e658796a32 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_b213_behav xil_defaultlib.tb_b213 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 592c785dfc7142228d53a5e658796a32 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_b213_behav xil_defaultlib.tb_b213 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HP/Vivado Files/Viterbi/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_b213_behav -key {Behavioral:sim_1:Functional:tb_b213} -tclbatch {tb_b213.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_b213.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+time=   0, clock=0, Rx=xx, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0000001
+time=  20, clock=1, Rx=xx, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0000001
+time=  40, clock=0, Rx=00, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0000001
+time=  60, clock=1, Rx=00, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0000010
+time=  80, clock=0, Rx=00, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0000010
+time= 100, clock=1, Rx=00, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0000100
+time= 120, clock=0, Rx=00, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0000100
+time= 140, clock=1, Rx=00, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0001000
+time= 160, clock=0, Rx=11, we=0, te=0, oe=0, wptr=0, tptr=0, min_state=000, tb_reg=000,A_in=00000000,P_in=11111111,plabels=00000000,Dx=0, ns=0001000
+time= 180, clock=1, Rx=11, we=1, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=02ffffff,P_in=00000000,plabels=00000000,Dx=0, ns=0000010
+time= 200, clock=0, Rx=11, we=1, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=02ffffff,P_in=00000000,plabels=00000000,Dx=0, ns=0000010
+time= 220, clock=1, Rx=11, we=0, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=02ffffff,P_in=00000000,plabels=00000000,Dx=0, ns=0000100
+time= 240, clock=0, Rx=11, we=0, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=02ffffff,P_in=00000000,plabels=00000000,Dx=0, ns=0000100
+time= 260, clock=1, Rx=11, we=0, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=02ffffff,P_in=00000000,plabels=00000000,Dx=0, ns=0001000
+time= 280, clock=0, Rx=10, we=0, te=0, oe=0, wptr=1, tptr=0, min_state=000, tb_reg=000,A_in=02ffffff,P_in=00000000,plabels=00000000,Dx=0, ns=0001000
+time= 300, clock=1, Rx=10, we=1, te=0, oe=0, wptr=2, tptr=0, min_state=001, tb_reg=000,A_in=2033ffff,P_in=00000000,plabels=00000000,Dx=0, ns=0000010
+time= 320, clock=0, Rx=10, we=1, te=0, oe=0, wptr=2, tptr=0, min_state=001, tb_reg=000,A_in=2033ffff,P_in=00000000,plabels=00000000,Dx=0, ns=0000010
+time= 340, clock=1, Rx=10, we=0, te=0, oe=0, wptr=2, tptr=0, min_state=001, tb_reg=000,A_in=2033ffff,P_in=00000000,plabels=00000000,Dx=0, ns=0000100
+time= 360, clock=0, Rx=10, we=0, te=0, oe=0, wptr=2, tptr=0, min_state=001, tb_reg=000,A_in=2033ffff,P_in=00000000,plabels=00000000,Dx=0, ns=0000100
+time= 380, clock=1, Rx=10, we=0, te=0, oe=0, wptr=2, tptr=0, min_state=001, tb_reg=000,A_in=2033ffff,P_in=00000000,plabels=00000000,Dx=0, ns=0001000
+time= 400, clock=0, Rx=10, we=0, te=0, oe=0, wptr=2, tptr=0, min_state=001, tb_reg=000,A_in=2033ffff,P_in=00000000,plabels=00000000,Dx=0, ns=0001000
+time= 420, clock=1, Rx=10, we=1, te=0, oe=0, wptr=3, tptr=0, min_state=011, tb_reg=001,A_in=33204435,P_in=00000000,plabels=00000000,Dx=1, ns=0000010
+time= 440, clock=0, Rx=10, we=1, te=0, oe=0, wptr=3, tptr=0, min_state=011, tb_reg=001,A_in=33204435,P_in=00000000,plabels=00000000,Dx=1, ns=0000010
+time= 460, clock=1, Rx=10, we=0, te=0, oe=0, wptr=3, tptr=0, min_state=011, tb_reg=001,A_in=33204435,P_in=00000000,plabels=00000000,Dx=1, ns=0000100
+time= 480, clock=0, Rx=10, we=0, te=0, oe=0, wptr=3, tptr=0, min_state=011, tb_reg=001,A_in=33204435,P_in=00000000,plabels=00000000,Dx=1, ns=0000100
+time= 500, clock=1, Rx=10, we=0, te=0, oe=0, wptr=3, tptr=0, min_state=011, tb_reg=001,A_in=33204435,P_in=00000000,plabels=00000000,Dx=1, ns=0001000
+time= 520, clock=0, Rx=11, we=0, te=0, oe=0, wptr=3, tptr=0, min_state=011, tb_reg=001,A_in=33204435,P_in=00000000,plabels=00000000,Dx=1, ns=0001000
+time= 540, clock=1, Rx=11, we=1, te=0, oe=0, wptr=4, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00000000,Dx=1, ns=0000010
+time= 560, clock=0, Rx=11, we=1, te=0, oe=0, wptr=4, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00000000,Dx=1, ns=0000010
+time= 580, clock=1, Rx=11, we=0, te=0, oe=0, wptr=4, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00100000,Dx=1, ns=0000100
+time= 600, clock=0, Rx=11, we=0, te=0, oe=0, wptr=4, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00100000,Dx=1, ns=0000100
+time= 620, clock=1, Rx=11, we=0, te=0, oe=0, wptr=4, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00100000,Dx=1, ns=0001000
+time= 640, clock=0, Rx=01, we=0, te=0, oe=0, wptr=4, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00100000,Dx=1, ns=0001000
+time= 660, clock=1, Rx=01, we=1, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=110,A_in=34442033,P_in=10111111,plabels=00100000,Dx=0, ns=0000010
+time= 680, clock=0, Rx=01, we=1, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=110,A_in=34442033,P_in=10111111,plabels=00100000,Dx=0, ns=0000010
+time= 700, clock=1, Rx=01, we=0, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=110,A_in=34442033,P_in=10111111,plabels=10111111,Dx=0, ns=0000100
+time= 720, clock=0, Rx=01, we=0, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=110,A_in=34442033,P_in=10111111,plabels=10111111,Dx=0, ns=0000100
+time= 740, clock=1, Rx=01, we=0, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=110,A_in=34442033,P_in=10111111,plabels=10111111,Dx=0, ns=0001000
+time= 760, clock=0, Rx=10, we=0, te=0, oe=0, wptr=5, tptr=0, min_state=101, tb_reg=110,A_in=34442033,P_in=10111111,plabels=10111111,Dx=0, ns=0001000
+time= 780, clock=1, Rx=10, we=1, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=101,A_in=33204434,P_in=11111110,plabels=10111111,Dx=1, ns=0000010
+time= 800, clock=0, Rx=10, we=1, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=101,A_in=33204434,P_in=11111110,plabels=10111111,Dx=1, ns=0000010
+time= 820, clock=1, Rx=10, we=0, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=101,A_in=33204434,P_in=11111110,plabels=11111110,Dx=1, ns=0000100
+time= 840, clock=0, Rx=10, we=0, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=101,A_in=33204434,P_in=11111110,plabels=11111110,Dx=1, ns=0000100
+time= 860, clock=1, Rx=10, we=0, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=101,A_in=33204434,P_in=11111110,plabels=11111110,Dx=1, ns=0001000
+time= 880, clock=0, Rx=00, we=0, te=0, oe=0, wptr=6, tptr=0, min_state=011, tb_reg=101,A_in=33204434,P_in=11111110,plabels=11111110,Dx=1, ns=0001000
+time= 900, clock=1, Rx=00, we=1, te=0, oe=0, wptr=7, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=11111110,Dx=1, ns=0000010
+time= 920, clock=0, Rx=00, we=1, te=0, oe=0, wptr=7, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=11111110,Dx=1, ns=0000010
+time= 940, clock=1, Rx=00, we=0, te=0, oe=0, wptr=7, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00100000,Dx=1, ns=0000100
+time= 960, clock=0, Rx=00, we=0, te=0, oe=0, wptr=7, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00100000,Dx=1, ns=0000100
+time= 980, clock=1, Rx=00, we=0, te=0, oe=0, wptr=7, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00100000,Dx=1, ns=0001000
+time=1000, clock=0, Rx=00, we=0, te=0, oe=0, wptr=7, tptr=0, min_state=110, tb_reg=011,A_in=44433302,P_in=00100000,plabels=00100000,Dx=1, ns=0001000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_b213_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1020.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 15:43:57 2024...
